@@ -608,36 +608,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   <nat>
     <outbound>
       <mode>hybrid</mode>
-      <rule>
-        <source>
-          <network>nswitch</network>
-        </source>
-        <destination>
-          <any>1</any>
-        </destination>
-        <descr/>
-        <category/>
-        <interface>wan</interface>
-        <tag/>
-        <tagged/>
-        <poolopts/>
-        <poolopts_sourcehashkey/>
-        <ipprotocol>inet</ipprotocol>
-        <target/>
-        <targetip_subnet>0</targetip_subnet>
-        <staticnatport>1</staticnatport>
-        <sourceport/>
-        <updated>
-          <username>alexg@192.168.1.101</username>
-          <time>1735505592.5604</time>
-          <description>/firewall_nat_out_edit.php made changes</description>
-        </updated>
-        <created>
-          <username>alexg@192.168.1.101</username>
-          <time>1735505592.5604</time>
-          <description>/firewall_nat_out_edit.php made changes</description>
-        </created>
-      </rule>
     </outbound>
     <rule uuid="4e552f38-15aa-4d45-9807-d20405ea1161">
       <sequence>100</sequence>
@@ -890,8 +860,8 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
   </widgets>
   <revision>
     <username>alexg@192.168.4.213</username>
-    <description>/api/firewall/source_nat/set made changes</description>
-    <time>1785211187.28</time>
+    <description>/api/firewall/migration/flush_outbound made changes</description>
+    <time>1785211199.58</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
