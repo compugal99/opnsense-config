@@ -881,9 +881,6 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     </rule>
   </nat>
   <filter/>
-  <rrd>
-    <enable/>
-  </rrd>
   <ntpd>
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
@@ -892,9 +889,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>alexg@192.168.4.213</username>
-    <description>/api/core/firmware/set made changes</description>
-    <time>1785210649.87</time>
+    <username>(root)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1785211018.23</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -2875,7 +2872,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       </snmp>
     </Nut>
     <trust>
-      <general version="1.0.1">
+      <general version="1.0.2" persisted_at="1785211018.18" description="Trust general settings">
         <store_intermediate_certs>0</store_intermediate_certs>
         <install_crls>0</install_crls>
         <fetch_crls>0</fetch_crls>
@@ -2926,6 +2923,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
         <AdvCurHopLimit>64</AdvCurHopLimit>
       </entries>
     </radvd>
+    <SystemHealth version="1.0.0" persisted_at="1785211016.37" description="RRD graphing backend configuration">
+      <enabled>1</enabled>
+    </SystemHealth>
   </OPNsense>
   <hasync version="1.0.2">
     <disablepreempt>0</disablepreempt>
