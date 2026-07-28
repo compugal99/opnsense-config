@@ -889,9 +889,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>(root)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1785211018.23</time>
+    <username>alexg@192.168.4.213</username>
+    <description>/api/firewall/source_nat/upload_rules made changes</description>
+    <time>1785211184.47</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
@@ -1176,7 +1176,7 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
       <Category version="1.0.0">
         <categories/>
       </Category>
-      <Filter version="1.0.5" persisted_at="1785210483.07" description="Firewall rules (new)">
+      <Filter version="1.0.5" persisted_at="1785211184.47" description="Firewall rules (new)">
         <general/>
         <rules>
           <rule uuid="af11024c-bbd0-4ede-b243-ff0597c61657">
@@ -2188,7 +2188,31 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
             <description>Allow DMZ to Any non-reserved IP</description>
           </rule>
         </rules>
-        <snatrules/>
+        <snatrules>
+          <rule uuid="6ebf95cb-f821-496a-89ed-0a12ac617272">
+            <enabled>1</enabled>
+            <nonat>0</nonat>
+            <nosync>0</nosync>
+            <sequence>1</sequence>
+            <interface>wan</interface>
+            <ipprotocol>inet</ipprotocol>
+            <protocol>any</protocol>
+            <source_net>nswitch</source_net>
+            <source_not>0</source_not>
+            <source_port/>
+            <destination_net>any</destination_net>
+            <destination_not>0</destination_not>
+            <destination_port/>
+            <target/>
+            <target_port/>
+            <staticnatport>1</staticnatport>
+            <log>0</log>
+            <categories/>
+            <tag/>
+            <tagged/>
+            <description/>
+          </rule>
+        </snatrules>
         <npt/>
         <onetoone/>
       </Filter>
