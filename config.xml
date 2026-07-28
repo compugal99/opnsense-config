@@ -280,13 +280,14 @@
     </ssh>
     <rrdbackup>-1</rrdbackup>
     <netflowbackup>-1</netflowbackup>
-    <firmware version="1.0.1">
+    <firmware version="1.0.1" persisted_at="1785210649.87" description="Firmware settings">
       <mirror/>
       <flavour/>
       <plugins>os-git-backup,os-nut,os-theme-cicada</plugins>
       <type/>
       <subscription/>
-      <reboot/>
+      <reboot>0</reboot>
+      <aux>0</aux>
     </firmware>
     <language>en_US</language>
     <dnsserver>1.0.0.1</dnsserver>
@@ -891,9 +892,9 @@ cFsNoxWAb+TiERRLohkvAAAAGGFsZXhnQHJvdXRlLmNvbXB1Z3V5LmRldgECAwQF&#13;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>(root)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1785210484.12</time>
+    <username>alexg@192.168.4.213</username>
+    <description>/api/core/firmware/set made changes</description>
+    <time>1785210649.87</time>
   </revision>
   <OPNsense>
     <DHCRelay version="1.0.1"/>
